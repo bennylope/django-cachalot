@@ -16,6 +16,11 @@ DATABASES = {
         'NAME': 'cachalot',
         'USER': 'cachalot',
     },
+    'postgrespool': {
+        'ENGINE': 'django_postgrespool',
+        'NAME': 'cachalot',
+        'USER': 'cachalot',
+    },
     'mysql': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'cachalot',
